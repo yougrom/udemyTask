@@ -13,6 +13,7 @@
 
 
 let isStudent
+console.log(isStudent);
 isStudent = true
 console.log(isStudent);
 isStudent = false

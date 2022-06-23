@@ -10,5 +10,5 @@
 
 let numOne = 5
 let numTwo = 10
-let numSum = (numOne * numTwo)
+let numSum = numOne * numTwo
 console.log(numSum);
