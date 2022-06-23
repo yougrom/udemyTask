@@ -7,3 +7,8 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+let numOne = 5
+let numTwo = 10
+let numSum = (numOne * numTwo)
+console.log(numSum);
