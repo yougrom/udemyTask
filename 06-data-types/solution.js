@@ -24,7 +24,7 @@ const myArray = []
 console.log(typeof myString)
 console.log(typeof myNumber)
 console.log(typeof myBoolean)
-console.log(typeof myNull)
+console.log(typeof myNull) //тип null был создан чтобы задавать пустое значение для объекта
 console.log(typeof myUndefined)
 console.log(typeof myObject)
 console.log(typeof myArray)
