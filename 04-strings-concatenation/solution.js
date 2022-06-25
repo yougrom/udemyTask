@@ -11,20 +11,20 @@
  * 3. Выведите значение последней переменной в консоль
  */
 
-const myName = 'Yuriy'
-const mySurname = 'Gromov'
-const myProfession = 'Web Developer'
+const myName = 'Yuriy';
+const mySurname = 'Gromov';
+const myProfession = 'Web Developer';
 
 // OPTION 1
 const personInfo1 =
   'My name is ' + myName + ' ' + mySurname + ' and I am ' + myProfession
 
-console.log(personInfo1)
+console.log(personInfo1);
 
 // OPTION 2
 const personInfo2 = `My name is ${myName} ${mySurname} and I am ${myProfession}`
 
-console.log(personInfo2)
+console.log(personInfo2);
 
 //Шаблонные строки
 
@@ -35,7 +35,7 @@ const str = `Я первая строка.
 
 Вообще так можно и стихотворение написать.
 `;
-console.log(str)]
+console.log(str);
 
 //Многострочные литералы
 console.log(`string text line 1
@@ -49,3 +49,10 @@ console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
 // "Fifteen is 15 and not 20."
 
 //Вложенные шаблоны
+
+
+let numX = 10;
+// let numY = 10;
+console.log(numX++); // Выводит число 10 и после этого 10 добавляет +1
+console.log(numX);
+// console.log(numY + 1);
