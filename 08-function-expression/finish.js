@@ -10,3 +10,19 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+
+//Example 1
+const mySurname = function(name) {
+    const thisIsMySurname = 'Yuriy';
+    console.log('Hello, ' + thisIsMySurname);
+    return thisIsMySurname;
+}
+mySurname();
+
+
+//Example 2
+const hello = function(name){
+    return 'Hello, ' + name;
+}
+console.log(hello('Yuriy')); 
+console.log(hello('Nika')); 
